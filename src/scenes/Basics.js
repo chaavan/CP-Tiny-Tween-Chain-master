@@ -60,21 +60,24 @@ class Basics extends Phaser.Scene {
                 {
                     x: w - 64,
                     duration: 500,
+                    pear: 90
                 },
                 {
                     y: h - 64,
                     duration: 1000,
                     ease: 'Sine.easeOut',
-                    angle: 90
+                    angle: 180
 
                 },
                 {
                     x: 64,
-                    duration:1500
+                    duration:1500, 
+                    angle: 270
                 },
                 {
                     y: 64,
-                    duration: 1000
+                    duration: 1000,
+                    amgle: 360
                 }
 
             ]
@@ -83,6 +86,7 @@ class Basics extends Phaser.Scene {
         //add Mouse input listener to start tween chain
         this.input.on('pointerdown', () => {
             verygoodpair.setPosition(64, 64)
+            verygoodpair.setAngle(0)
             pearTweenChain.restart()
         })
 

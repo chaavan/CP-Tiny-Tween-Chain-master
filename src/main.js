@@ -1,6 +1,6 @@
 // Code Practice: Tiny Tween Chain
-// Name:
-// Date:
+// Name: Chaavan
+// Date: 3/3/2025
 
 // CODE ARMOR
 'use strict'
