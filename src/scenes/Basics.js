@@ -60,7 +60,8 @@ class Basics extends Phaser.Scene {
                 {
                     x: w - 64,
                     duration: 500,
-                    pear: 90
+                    pear: 90,
+                    angle: 90
                 },
                 {
                     y: h - 64,
@@ -77,7 +78,7 @@ class Basics extends Phaser.Scene {
                 {
                     y: 64,
                     duration: 1000,
-                    amgle: 360
+                    angle: 0
                 }
 
             ]
